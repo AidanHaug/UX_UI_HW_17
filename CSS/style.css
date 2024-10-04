@@ -1,0 +1,157 @@
+.logo {
+    display: block;
+    scale: .1;
+    height: 200px;
+    width: 200px;
+    margin: 0%;
+    clear: both;
+    float: left;
+    font-size: 0%;
+}
+.header-right {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+.search {
+    border: 2px solid black;
+    padding: 3px;
+    float: right;
+}
+.invisible-search {
+    padding-left: 200px;
+    padding-right: 300px;
+}
+.header {
+    display: flex;
+    align-items: center;  
+    margin: 0;
+}
+.header2 {
+    display: flex;
+    gap: 143px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 18%;
+}
+.inline-block {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.inline-block2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin: 28px;
+}
+input {
+    border: none;
+    width: 512px;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: "Monomaniac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.iconamoon--search-bold {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 25px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314'/%3E%3C/svg%3E");
+  }
+.signup {
+    background-color: black;
+    color: white;
+    font-family: "Monomaniac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+body {
+    width: 100%;
+}
+header {
+    width: 100%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.big {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-family: "Monomaniac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    border-color: white;
+}
+.inline-block-right {
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    align-items: right;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: right;
+    padding-left: 700px;
+}
+#rightfooter {
+    align-items: right;
+    display: block;
+}
+.footer {
+    display: flex;
+    gap: 48px;
+    align-items: left;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    border-top: 2px solid grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#row {
+    flex-direction: row;
+}
+
+.videocontainer {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 640px;
+}
+.textonvideo {
+    position: absolute;
+    top: 45%;
+    left: 33.33%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
