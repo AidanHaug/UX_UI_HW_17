@@ -125,7 +125,7 @@ h3 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     align-content: right;
-    padding-left: 700px;
+    padding-left: 675px;
 }
 .videocontainer {
     width: 100%;
@@ -229,4 +229,107 @@ html {
 }
 #row {
     flex-direction: row;
+}
+.hero2 {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 480px;
+}
+.textonhero {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14px;
+}
+.header3 {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 550px;
+    border-top: 2px solid grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.cards2 {
+    max-width: 595px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+}
+.cards3 {
+    max-width: 595px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    top: -175px;
+}
+.cards4 {
+    max-width: 595px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    top: -275px;
+}
+.card2 {
+   max-width: 584px;
+   align-items: center;
+   margin: 0px;
+   padding: 0px;
+   display: block;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14px;
+}
+.buttonAbout {
+    min-width: 200px;
+}
+.banner {
+    height: 445px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.buttonBanner {
+    min-width: 200px;
+    padding: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-left: 300px;
+}
+.textonbanner {
+    position: absolute;
+    top: 165%;
+    left: 30%;
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14px;
+}
+.b {
+    margin-left: 330px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.c {
+    font-size: 12px;
+}
+.card4 {
+    max-width:100%;
+    margin: 0px;
+    padding: 0px;
 }
