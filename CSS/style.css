@@ -101,6 +101,11 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
 .big {
     background-color: transparent;
     color: white;
@@ -122,25 +127,6 @@ h2 {
     align-content: right;
     padding-left: 700px;
 }
-#rightfooter {
-    align-items: right;
-    display: block;
-}
-.footer {
-    display: flex;
-    gap: 48px;
-    align-items: left;
-    padding-top: 15px;
-    padding-bottom: 1px;
-    padding-left: 15px;
-    border-top: 2px solid grey;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#row {
-    flex-direction: row;
-}
-
 .videocontainer {
     width: 100%;
     overflow: hidden;
@@ -154,4 +140,93 @@ h2 {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+.sixtile {
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.tileitem {
+    display: inline-block;
+    max-width: 192px;
+    padding-block: 10px;
+    align-items: center;
+}
+.cardgroup {
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.cards {
+    max-width: 595px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+}
+.card {
+   max-width: 584px;
+   align-items: center;
+   margin: 0px;
+   padding: 0px;
+   display: block;
+}
+.textoncard {
+    margin-left: 360px;
+    position: absolute;
+    top: 1350px;
+    left: 160px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textoncard2 {
+    margin-left: 360px;
+    position: absolute;
+    top: 1350px;
+    left: 775px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardFooter {
+    border: 1px solid grey;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+}
+.a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: none;
+    margin: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.rightButton {
+    float: right;
+    color: blue;
+    border-color: blue;
+}
+.rightButton:hover {
+    background-color: blue;
+    color: white;
+}
+html {
+    margin: 0px;
+}
+#rightfooter {
+    align-items: right;
+    display: block;
+}
+.footer {
+    display: flex;
+    gap: 48px;
+    align-items: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-top: 2px solid grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#row {
+    flex-direction: row;
 }
