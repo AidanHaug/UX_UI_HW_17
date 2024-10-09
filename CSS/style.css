@@ -333,3 +333,44 @@ p {
     margin: 0px;
     padding: 0px;
 }
+.tilegrid {
+    margin-left: 360px;
+}
+@media screen and (max-width: 600) {
+    #body {
+        max-width: 600px;
+        margin-left: -360px;
+    }
+    #header {
+        max-width: 600px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+    .header2 {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .inline-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .tileitem {
+        display: flex;
+        align-items: left;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .cardgroup {
+        align-items: left;
+        padding-left: -360px;
+        margin: 0px;
+    }
+    .tilegrid {
+        display: grid;
+        margin-left: 0px !important;
+    }
+}
